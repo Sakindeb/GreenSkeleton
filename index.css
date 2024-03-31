@@ -1,0 +1,128 @@
+/* Add your CSS styles here */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    width: 90%;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin-right: 40px;
+    color: #fff !important;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  body {
+    position: relative;
+    background-image: url("greencap.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   
+    backdrop-filter: blur(5px); /* blur effect to the backdrop */
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 30px;
+    height: 100vh;
+    width: 100%;
+  }
+
+.branding {
+    /* text-align: center; */
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    width: 800px;
+    padding: 10px;
+    color: rgb(109, 190, 109);
+  }
+  
+  .branding h1 {
+    font-size: 5em;
+    margin-top: 200px;
+  }
+  
+  .branding p {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  .card {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 300px;
+    margin: 1rem;
+    position: relative;
+    width: 300px;
+  }
+  .card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  
+  .card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .card-2 {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.24);
+  }
+  .card-2:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  
+  .card-3 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.24);
+  }
+  .card-3:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .card-4 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.24);
+  }
+  .card-4:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .card-5 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.24);
+  }
+  .card-5:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .projects-section {
+    background-color: #f2f2f2; /* Set the background color for the projects section */
+    padding: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling for overflow content */
+    white-space: nowrap; /* Prevent line breaks for the project rows */
+    
+  }
+  .projects-details {
+    background-color: #f2f2f2; /* Set the background color for the projects section */
+    padding: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling for overflow content */
+    white-space: nowrap; /* Prevent line breaks for the project rows */
+    height: 800px;
+    width: 1200px;
+    margin-left: 40px;
+  }
+  .project img {
+    width: 300px; /* Adjust the image width as needed */
+    height: 150px; /* Adjust the image height as needed */
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
